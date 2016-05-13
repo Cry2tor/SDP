@@ -1,0 +1,183 @@
+zadanie domowe:
+ISTQB
+wymagania:	(bêd¹ pytania)
+- funkcjonalne
+- niefunkcjonalne
+SCRUM POKER
+(bêd¹ pytania)
+
+
+
+
+
+wersje DRAFT
+
+
+
+
+
+
+
+wymaganie funkcjonalne:
+- jako u¿ytkownik powinienem mieæ mo¿liwoœæ zobaczenia treœci zak³adki contact
+po klikniêciu na ni¹.
+
+wymaganie niefunkcjonalne:
+- jako u¿ytkownik powinienem mieæ mo¿liwoœc zobaczenia treœci zak³adki contact
+ po klikniêciu na ni¹ w przeci¹gy 5 sekund.
+
+
+
+wymaganie:
+- powinno byæ spójne (jeden element)
+- jedno wymaganie - jeden test case
+- powinno byæ kompletne (np. konieczna nazwa zak³adki)
+- zgodnoœæ wymagania ( brak dwóch podobnych wymagañ)
+- aktualnoœæ wymagania ( dobra wersja. np. w czasie zmieniaj¹ siê wersje przegl¹darek)
+- jednoznacznoœæ ( ka¿dy rozumie to wymaganie tak samo)
+- weryfikowalnoœæ ( mo¿na test case oprzeæ na wymaganiu i wymaganie na test case)
+
+
+
+
+
+
+
+Test Case:
+- musi mieæ kroki
+- warunki wstêpne: (precoditionals)
+	- strona www jest dostêpna 
+	- IE 11 dostêpny
+	- OS win 7
+
+- warunki koñcowe (postconditionals)
+	- np. wyloguj ze strony
+
+- unikalny identyfikator (tekst)?
+
+- kroki:
+	1. idz do rec-global.com
+	2. strona siê za³adowa³a
+	3. 
+
+
+-expected result:
+	- strona siê za³adowa³a
+- actual result:
+	- strona siê nie za³adowa³a
+
+- Dane potrzebne do wykonania testu
+- opis
+- komentarz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ID:
+zak³adka contact
+
+warunki wstêpne:
+- windows 10
+- mozilla firefox 4.42
+- strona jest dostêpna
+
+kroki:
+1. idŸ do strony www.rec-global.com
+2. kliknij zak³adkê "contact" 
+3. wprowadŸ poprawne dane
+4. wype³nij poprawnie pole udowadniaj¹ce, ¿e jesteœ cz³owiekiem
+5. kliknij submit
+
+oczekiwany rezultat:
+- wiadomoœæ o b³êdnych danych
+
+aktualny rezultat:
+- strona d³ugo ³aduje komunikat koñcowy
+
+warunki koñcowe:
+- odœwie¿ stronê
+
+Dane:
+name: user
+email: email@wp.pl
+subject: temat
+message: wiadomosc jakas tam
+
+opis:
+- strona powinna natychmiast wyœwietliæ informacjê o b³êdnych danych.
+- "referencja do dokumentacji."
+
+autor:
+Pawe³ Gawron - gawron312@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nawigacja do rodzia³u About Us z zak³adki wersja 1.0
+Po klikniêciu na zak³adkê About Us w prawym górnym rogu w przegl¹darce firefox wersji 4.42 lub wy¿szej strona przewija siê do rozdzia³u About Us.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
